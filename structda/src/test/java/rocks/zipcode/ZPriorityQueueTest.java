@@ -18,6 +18,7 @@ public class ZPriorityQueueTest {
 
     @Test
     public void testEnqueueAndDequeue() {
+
         queue.enqueue("A", 1);
         queue.enqueue("B", 2);
         queue.enqueue("C", 1);
